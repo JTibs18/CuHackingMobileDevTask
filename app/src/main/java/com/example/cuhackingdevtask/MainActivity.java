@@ -22,6 +22,7 @@ public class MainActivity extends AppCompatActivity {
         displayText = (TextView) findViewById(R.id.textView);
         displayText.setText(String.valueOf(counter));
 
+        //test
         incrementButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
